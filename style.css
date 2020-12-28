@@ -370,6 +370,7 @@ header {
     position: fixed;
     width: 100%;
     justify-content: space-between;
+    background-color: black;
 }
 
 .logo {
@@ -378,19 +379,28 @@ header {
     padding-left: 0.45rem;
 }
 
-nav {
-
-
-}
-
-lu {
-
-}
-
 li {
     list-style-type: none;
     display: inline-flex;
     text-decoration: underline;
     margin: 0.5rem;
     color: inherit;
+}
+
+main {
+    padding-top: 3.14rem;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.start {
+
+}
+
+.background-img {
+    display: flex;
+    height: 31.81rem;
+    width: auto;
 }
