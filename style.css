@@ -371,6 +371,7 @@ header {
     width: 100%;
     justify-content: space-between;
     background-color: black;
+    border-bottom: 1px solid seashell;
 }
 
 .logo {
@@ -402,5 +403,23 @@ main {
 .background-img {
     display: flex;
     height: 31.81rem;
-    width: auto;
+    width: 54.55rem;
+}
+
+.mission {
+    text-align: center;
+    background-color: black;
+    z-index: 20;
+    position: relative;
+    bottom: 21.15rem;
+}
+
+.mission h2 {
+    padding-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+.mission h4 {
+    margin-top: 0.75rem;
+    padding-bottom: 0.5rem;
 }
