@@ -350,3 +350,29 @@ template {
 
 /*========================================================================== */
 
+html {
+    font-family: "Helverica", serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+
+}
+
+header {
+    display: flex;
+    height: 3.14rem;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    height: 2.27rem;
+    width: auto;
+    padding-left: 0.45rem;
+}
+
+nav {
+    align-content: end;
+}
