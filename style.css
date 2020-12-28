@@ -390,20 +390,20 @@ li {
 
 main {
     padding-top: 3.14rem;
-    display: flex;
     align-content: center;
     align-items: center;
     justify-content: center;
 }
 
 .start {
-
+    text-align: center;
+    height: 31.81rem;
 }
 
 .background-img {
-    display: flex;
     height: 31.81rem;
     width: 54.55rem;
+
 }
 
 .mission {
@@ -422,4 +422,23 @@ main {
 .mission h4 {
     margin-top: 0.75rem;
     padding-bottom: 0.5rem;
+}
+
+.month {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.month .gallery {
+    display: flex;
+}
+
+.month img {
+    height: 9.09rem;
+    width: 13.64rem;
+
+}
+
+.month span h4 {
+    margin-top: 0.5rem;
 }
