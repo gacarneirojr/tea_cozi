@@ -354,13 +354,13 @@ html {
     font-family: "Helverica", serif;
     font-size: 22px;
 
-    background-color: black;
-    opacity: 0.9;
 
 }
 
 body {
     color: seashell;
+    background-color: black;
+    opacity: 0.9;
 }
 
 header {
@@ -372,6 +372,7 @@ header {
     justify-content: space-between;
     background-color: black;
     border-bottom: 1px solid seashell;
+    z-index: 30;
 }
 
 .logo {
@@ -390,9 +391,7 @@ li {
 
 main {
     padding-top: 3.14rem;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 .start {
@@ -426,14 +425,15 @@ main {
 
 .month {
     margin-top: 3rem;
-    text-align: center;
+    width: 45.46rem;
+    display: inline-block;
 }
 
 .month .gallery {
     display: flex;
-    justify-content: space-around;
-    align-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
+
 }
 
 .month img {
@@ -441,6 +441,48 @@ main {
     width: 13.64rem;
 }
 
+.month span {
+    margin: 0.5rem;
+}
+
 .month span p {
     margin-top: 0.45rem;
+}
+
+
+.location {
+    margin-top: 2rem;
+}
+
+.location img {
+    height: 22.73rem;
+    width: 54.55rem;
+    object-fit: cover;
+}
+
+.location h2 {
+    position: relative;
+    text-align: center;
+    bottom: 20rem;
+    margin: 0;
+}
+
+.address {
+    display: flex;
+    justify-content: center;
+
+}
+
+.address div {
+    background-color: black;
+    text-align: center;
+    width: 13.64rem;
+    margin: 1.81rem;
+    z-index: 10;
+    position: relative;
+    bottom: 21rem;
+}
+
+.address div p {
+    padding: 0.4rem;
 }
