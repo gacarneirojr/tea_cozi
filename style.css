@@ -353,10 +353,14 @@ template {
 html {
     font-family: "Helverica", serif;
     font-size: 22px;
-    color: seashell;
+
     background-color: black;
     opacity: 0.9;
 
+}
+
+body {
+    color: seashell;
 }
 
 header {
@@ -365,6 +369,7 @@ header {
     align-items: center;
     position: fixed;
     width: 100%;
+    justify-content: space-between;
 }
 
 .logo {
@@ -374,5 +379,18 @@ header {
 }
 
 nav {
-    align-content: end;
+
+
+}
+
+lu {
+
+}
+
+li {
+    list-style-type: none;
+    display: inline-flex;
+    text-decoration: underline;
+    margin: 0.5rem;
+    color: inherit;
 }
