@@ -431,14 +431,16 @@ main {
 
 .month .gallery {
     display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
 }
 
 .month img {
     height: 9.09rem;
     width: 13.64rem;
-
 }
 
-.month span h4 {
-    margin-top: 0.5rem;
+.month span p {
+    margin-top: 0.45rem;
 }
