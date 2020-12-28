@@ -451,20 +451,19 @@ main {
 
 
 .location {
-    margin-top: 2rem;
-}
-
-.location img {
+    margin-top: 1.5rem;
+    background-image: url("./img/img-locations-background.jpg");
     height: 22.73rem;
     width: 54.55rem;
     object-fit: cover;
+    display: inline-block;
+    padding-bottom: 3rem;
 }
 
 .location h2 {
-    position: relative;
     text-align: center;
-    bottom: 20rem;
-    margin: 0;
+    margin-top: 3.5rem;
+    margin-bottom: 0.68rem;
 }
 
 .address {
@@ -477,12 +476,29 @@ main {
     background-color: black;
     text-align: center;
     width: 13.64rem;
-    margin: 1.81rem;
+    margin: 0 0.9rem 2rem 0.9rem;
     z-index: 10;
-    position: relative;
-    bottom: 21rem;
+
+
 }
 
 .address div p {
     padding: 0.4rem;
+}
+
+footer {
+    text-align: center;
+}
+
+footer h2 {
+    margin: 0.5rem 0.5rem 2rem 0.5rem;
+}
+
+footer div {
+    height: 9.09rem;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 0.91rem;
 }
