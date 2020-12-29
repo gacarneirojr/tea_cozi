@@ -384,9 +384,18 @@ header {
 li {
     list-style-type: none;
     display: inline-flex;
-    text-decoration: underline;
+
     margin: 0.5rem;
     color: inherit;
+}
+
+a:link, a:visited {
+    color: seashell;
+    text-decoration: underline;
+}
+
+a:hover, a:active {
+    color: seashell;
 }
 
 main {
